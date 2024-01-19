@@ -1,0 +1,46 @@
+/* Wheelspinner.css */
+
+.wheel-spinner {
+    position: relative;
+    text-align: center;
+    margin-top: 50px; /* Adjust margin as needed */
+  }
+  
+  .spin {
+    position: relative;
+    display: inline-block;
+    transition: transform 7s ease;
+  }
+  
+  .spinning {
+    animation: fast-spin 0.4s linear infinite;
+  }
+  
+  @keyframes fast-spin {
+    to {
+      transform: rotate(1800deg);
+    }
+  }
+  
+  .amount-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    color: #fff;
+    background: #3498db;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .valuesget {
+    /* Styles for the table displaying values */
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  
+  .spin-button {
+    margin-top: 20px; /* Adjust margin as needed */
+  }
+  

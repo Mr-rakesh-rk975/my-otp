@@ -1,0 +1,50 @@
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.login-Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 550px;
+    background: aliceblue;
+    padding: 20px;
+    box-shadow: 6px 2px 14px 4px;
+    flex-wrap: wrap;
+}
+
+.Headings, h1 {
+    color: blue;
+}
+
+.Headings, p {
+    color: #c1c;
+}
+
+.input-fields {
+    display: contents;
+    text-align: initial;
+    
+}
+   
+
+
+label {
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.submit-btn button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 4px 0px;
+    background: blueviolet;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+}

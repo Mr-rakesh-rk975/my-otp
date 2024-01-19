@@ -1,0 +1,16 @@
+table tr th{
+    background-color: aliceblue;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+table tr td{
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+table tr td:hover{
+    background: #000;
+    color:  white;
+    cursor: pointer;
+}

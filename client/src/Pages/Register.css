@@ -1,0 +1,79 @@
+
+.Red-form-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.Register-Form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 550px;
+    background: rgba(13,110,253,.25);
+    padding: 20px;
+    box-shadow: 6px 2px 14px 4px;
+    flex-wrap: wrap;
+}
+
+.reg-headigns, h1 {
+    color: blue;
+}
+
+.reg-headigns, p {
+    color: #c1c;
+    text-wrap: wrap !important;
+    width: 90%;
+    margin: auto;
+}
+
+
+.input-fields {
+    display: contents;
+    text-align: initial;
+    
+}
+   
+
+
+label {
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.submit-btn button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 4px 0px;
+    background: blueviolet;
+    font-size: 17px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.show-hide-pass {
+    display: flex;
+}
+
+.password-input{
+    width: 90%;
+    border: 1px solid black;
+    border-right: none;
+}
+
+.show-pass {
+    background: #ffffff;
+    border: 1px solid black;
+    border-left: none;
+    width: 10%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#register{
+    font-weight: bold;
+    color: red;
+    
+}
